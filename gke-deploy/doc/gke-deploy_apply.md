@@ -39,7 +39,7 @@ gke-deploy apply [flags]
   -l, --location string    Region/zone of GKE cluster to deploy to.
   -n, --namespace string   Namespace of GKE cluster to deploy to. If omitted, the namespace(s) specified in each Kubernetes configuration file is used.
   -p, --project string     Project of GKE cluster to deploy to. If this field is not provided, the current set GCP project is used.
-  -R, --recursive          Recursively search through the provided path in --filename for all YAML files. 
+  -R, --recursive          Recursively search through the provided path in --filename for all YAML files.
   -t, --timeout duration   Timeout limit for waiting for Kubernetes objects to finish applying. (default 5m0s)
   -V, --verbose            Prints underlying commands being called to stdout.
 ```
